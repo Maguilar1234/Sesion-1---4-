@@ -686,3 +686,15 @@ fun main() {
     println("El número más grande es: $maximo")
 }
 
+val numeros = listOf(1, 2, 3, 4, 5)
+val pares = numeros.filter { it % 2 == 0 }
+fun main(){
+println(pares) // Imprime: [2, 4]
+}
+
+
+
+
+
+
+
