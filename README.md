@@ -684,3 +684,5 @@ fun main() {
     val maximo = numeros.reduce(obtenerMayor)
     println("El número más grande es: $maximo")
 }
+  ```
+--
