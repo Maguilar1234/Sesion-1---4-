@@ -679,18 +679,11 @@ fun main() {
 val obtener Mayor: (Int, Int) -> Int = { a, b -> if (a > b) a else b }
 
 
-
-
 fun main() {
     val numeros = listOf(5, 2, 10, 8, 3, 1)
-    
     val maximo = numeros.reduce(obtenerMayor)
-    
     println("El número más grande es: $maximo")
 }
-
-
-
 
 
 
