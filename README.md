@@ -675,7 +675,7 @@ fun main() {
 ## SESIÓN 5: Ejercicios de Programación Funcional en Kotlin
 
 ## 1. Expresiones Lambda
-Crea una expresión lambda que tome dos números enteros y devuelva el mayor de ellos. Luego, usa esta lambda para encontrar el número más grande en una lista de enteros.
+*Crea una expresión lambda que tome dos números enteros y devuelva el mayor de ellos. Luego, usa esta lambda para encontrar el número más grande en una lista de enteros.
 
 val obtenerMayor: (Int, Int) -> Int = { a, b -> if (a > b) a else b }
 
